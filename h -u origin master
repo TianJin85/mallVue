@@ -1,0 +1,663 @@
+[33mcommit 7ca82a7631db9ce3f403c7252e11616864de0c2f[m
+Author: gem install redis-dump <307440205@qq.com>
+Date:   Wed Mar 4 11:20:50 2020 +0800
+
+    删除内容
+
+[33mcommit 27b96249c8750606a45cac96e819943bb425835e[m
+Author: gem install redis-dump <307440205@qq.com>
+Date:   Wed Mar 4 11:09:30 2020 +0800
+
+    初始提交
+
+[33mcommit 25c40821d386d43ba3bf3398298efa4dcd9b79a6[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Wed Dec 11 14:52:03 2019 +0800
+
+    Update README.md
+
+[33mcommit 57ddf2e10b4d81f6c4c9c7d7ddc30932a1d7485f[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Wed Dec 11 14:33:51 2019 +0800
+
+    Hotfix (#277)
+    
+    * fix(state):
+    
+    * fix(permission):
+    
+    replace name
+
+[33mcommit 456317d9717846877d303520452ae9facd83afe7[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Wed Dec 11 13:26:52 2019 +0800
+
+    fix(state): missing param(#275) (#276)
+
+[33mcommit 632647dfc80eef771e2421840c0e002de65b6aed[m
+Author: vanoneang <525650856@qq.com>
+Date:   Mon Dec 9 10:35:26 2019 +0800
+
+    feat: 修改侧边栏宽度为210
+
+[33mcommit 81b351e07a08b8b77839ce9e3cad6f6ea8117895[m
+Merge: aa79143 50a570d
+Author: vanoneang <525650856@qq.com>
+Date:   Sun Dec 8 22:14:08 2019 +0800
+
+    feat: 统一eslint规范
+
+[33mcommit 50a570dbe960d3ce94d9cab1b50d57287b752271[m
+Author: bolingboling <zhangxiaoshang66@163.com>
+Date:   Sat Dec 7 17:58:26 2019 +0800
+
+    统一代码格式 (#271)
+    
+    * 1. 配置.prettier .eslint 修复规则冲突
+    2. 使用gitHooks 在提交前格式化代码、修复eslint错误
+    3. 依照.prettier的规则配置对项目源文件重新格式化
+    4. 修复源文件存在的warning、error
+    
+    * .prettierrc.js: 删除重复的规则
+
+[33mcommit aa79143f40af3ff697c302717d47dce13f70ac60[m
+Merge: 62e8af5 bf854c5
+Author: vanoneang <525650856@qq.com>
+Date:   Wed Dec 4 22:08:27 2019 +0800
+
+    Merge branch 'develop' of https://github.com/TaleLin/lin-cms-vue into develop
+
+[33mcommit bf854c5c1bc4260d7b1f9e2e4f1d699864991ec0[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Wed Nov 27 12:22:43 2019 +0800
+
+    fix(axios & tinymce): optimize the experience (#268)
+    
+    fix #267
+
+[33mcommit f9a328bc6c5449579b605c4d3cf2f7c8d0b953b9[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Tue Nov 12 18:10:33 2019 +0800
+
+    Develop (#265)
+    
+    * Fix tinymce (#241)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:修复tinymce组件css资源未找到的bug
+    
+    * fix:URL大小写拼写
+    
+    * Fix date picker (#244)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * fix(datetimepicker): 修复默认情况下无法选择日期的问题
+    
+    fix #242
+    
+    * Feat tinymce (#247)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * feat:增加tinymce组件默认内容功能
+    
+    * Feat tinymce (#249)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * feat:增加tinymce组件默认内容功能
+    
+    * fix
+    
+    * fix:修复defaultContent无效的bug
+    
+    * Temp fix (#251)
+    
+    * feat: 修改集合返回字段
+    
+    * fix(axios.js): optimize request interceptor
+    
+    * Hot fix/tinymce (#264)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * fix: 获取图书列表时loading状态无效 (#252)
+    
+    * style: 使用lint-staged禁止提交未通过eslint校验的代码 (#255)
+    
+    * style:  增加.prettier.js配置文件 (#257)
+    
+    * fix(circular reference): circular reference
+    
+    fix #250
+
+[33mcommit 43de300546c51b147857eb44c646932079969d27[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Tue Nov 12 18:08:52 2019 +0800
+
+    Hot fix/tinymce (#264)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * fix: 获取图书列表时loading状态无效 (#252)
+    
+    * style: 使用lint-staged禁止提交未通过eslint校验的代码 (#255)
+    
+    * style:  增加.prettier.js配置文件 (#257)
+    
+    * fix(circular reference): circular reference
+    
+    fix #250
+
+[33mcommit 5cbb59289bbd156eb5fc9ea9c0e84b9834c774dc[m
+Author: 张小上 <zhangxiaoshang66@163.com>
+Date:   Tue Nov 12 12:29:39 2019 +0800
+
+    style:  增加.prettier.js配置文件 (#257)
+
+[33mcommit f28c5697aad362f5f99bc5c42e638313e7ab1bef[m
+Author: 张小上 <zhangxiaoshang66@163.com>
+Date:   Tue Nov 12 11:30:42 2019 +0800
+
+    style: 使用lint-staged禁止提交未通过eslint校验的代码 (#255)
+
+[33mcommit 4e256ac7cd86d4c649a0a6f68c4fb4a307eba92a[m
+Author: 张小上 <zhangxiaoshang66@163.com>
+Date:   Tue Nov 12 11:28:21 2019 +0800
+
+    fix: 获取图书列表时loading状态无效 (#252)
+
+[33mcommit cdbe98c0fc445770688f3886487c8a5cff9ebd99[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Fri Nov 8 16:24:09 2019 +0800
+
+    Temp fix (#251)
+    
+    * feat: 修改集合返回字段
+    
+    * fix(axios.js): optimize request interceptor
+
+[33mcommit 62e8af5ba0a422fe7ffa8bdc17f6b7bb6f14fdfe[m
+Merge: 10bbb51 dfb67e7
+Author: vanoneang <525650856@qq.com>
+Date:   Fri Nov 8 16:12:50 2019 +0800
+
+    Merge branch 'develop' of https://github.com/TaleLin/lin-cms-vue into develop
+
+[33mcommit dfb67e76b07a2f8b610f973d0fe657719c8488b6[m
+Author: gongjs <382663074@qq.com>
+Date:   Thu Nov 7 16:24:25 2019 +0800
+
+    Feat tinymce (#249)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * feat:增加tinymce组件默认内容功能
+    
+    * fix
+    
+    * fix:修复defaultContent无效的bug
+
+[33mcommit ada6a21ce486ad379f613a7ab1094567debca350[m
+Author: gongjs <382663074@qq.com>
+Date:   Fri Oct 25 12:21:07 2019 +0800
+
+    Feat tinymce (#247)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * feat:增加tinymce组件默认内容功能
+
+[33mcommit f597078640d14689447c975c9f627259a5dd6a14[m
+Author: jonflow <1021283712@qq.com>
+Date:   Wed Oct 23 09:10:33 2019 +0800
+
+    Fix date picker (#244)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:版本日志中字段名拼写错误
+    
+    * fix(datetimepicker): 修复默认情况下无法选择日期的问题
+    
+    fix #242
+
+[33mcommit 1be4696e3cd19023ea97f047a0b001c13c991e5f[m
+Author: gongjs <382663074@qq.com>
+Date:   Sun Oct 20 22:33:54 2019 +0800
+
+    Fix tinymce (#241)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * fix:修复tinymce组件css资源未找到的bug
+    
+    * fix:URL大小写拼写
+
+[33mcommit 9f3656d830d7fd04acafe4515f9e98ca7a62797a[m
+Merge: 418bd00 bc548ce
+Author: Evan Wang <525650856@qq.com>
+Date:   Sun Oct 20 19:10:31 2019 +0800
+
+    Merge pull request #240 from ChenJinchuang/fix
+    
+    fix:版本日志中字段名拼写错误
+
+[33mcommit bc548ce03ab18f6d80b09e7a64dfa778891c7fbb[m
+Author: Chenjinchuang <qinchenju@gmail.com>
+Date:   Sun Oct 20 16:38:16 2019 +0800
+
+    fix:版本日志中字段名拼写错误
+
+[33mcommit 418bd003f613bd2d8f32aaa3c95414945309bfbb[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Thu Oct 17 15:40:17 2019 +0800
+
+    Update README.md
+
+[33mcommit cec7467812914600d71cbf890bd4a0d355aae87a[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Thu Oct 17 15:04:54 2019 +0800
+
+    Update README.md
+
+[33mcommit de5c49dc141bcf9f6fdb8ea4a3a582c964d01a77[m
+Merge: d32068b d49c027
+Author: Evan Wang <525650856@qq.com>
+Date:   Tue Oct 15 17:17:07 2019 +0800
+
+    Merge pull request #238 from TaleLin/develop
+    
+    Develop
+
+[33mcommit d49c0270a4097da17427dda17948ec8046dbf4ad[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Tue Oct 15 17:12:22 2019 +0800
+
+    Feature/page (#237)
+    
+    * feat: 修改集合返回字段
+    
+    * fix: 修复post请求重发机制
+    
+    fix #233
+    
+    * feat(User): edit nickname
+    
+    * docs(version): 版本更新日志
+    
+    * feat(user): add group name
+    
+    * Update .env.production
+    
+    * feat: 组件api地址修改
+    
+    * feat: prod url
+
+[33mcommit c6d99f4e3ff4d083de89c983bf74b9f060b995f8[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Sat Oct 12 14:45:23 2019 +0800
+
+    Feature/page (#235)
+    
+    * feat: 修改集合返回字段
+    
+    * fix: 修复post请求重发机制
+    
+    fix #233
+    
+    * feat(User): edit nickname
+    
+    * docs(version): 版本更新日志
+    
+    * feat(user): add group name
+    
+    * Update .env.production
+
+[33mcommit 10bbb51d3f07c885eeab40abfdb2fb9cf00318ec[m
+Author: vanoneang <525650856@qq.com>
+Date:   Sun Sep 15 21:43:58 2019 +0800
+
+    feat: 修改集合返回字段
+
+[33mcommit eff576c35f2988fa59f186a0017bf0b41668f9a3[m
+Author: Quanquan <zhanglinling0926@gmail.com>
+Date:   Sun Sep 15 21:42:18 2019 +0800
+
+    feat(sideBar): 添加手机模式侧边栏 (#230)
+
+[33mcommit 0227e6d49e09eb9f3d81c415f8c58d49a63d18ac[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Mon Sep 2 10:52:28 2019 +0800
+
+    Tool (#229)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat: publish new version
+    
+    * Update README.md
+    
+    * feat: 一键清除历史记录
+    
+    * feat: search ui
+    
+    * Error (#227)
+    
+    * Update README.md
+    
+    * Tinymce (#214)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat:富文本 Tinymce
+    
+    * fix:去掉tinymce标识
+    
+    * update:新增富文本部分内置插件
+    
+    * fix:富文本上传图片加入token验证
+    
+    * fix:自动化导入富文本插件
+    
+    * fix:修复没有分组时，新建用户选择分组的时候会显示0的bug (#221)
+    
+    * build(.eslintrc.js): 去掉'linebreak-style': [0, 'error', 'windows']
+    
+    airbnb校验规则会要求项目使用 LF 换行符, git for windows 在默认配置下会将签出的代码转换成 CRLF。此处应要求 windwos 开发者关闭 git 自动转换功能。
+    
+    * chore(*): 更新依赖, 修复eslint不符合的地方
+    
+    * feat(Login): 登录界面移动适配
+    
+    * fix:全局错误处理
+    
+    * fix: grammar error
+
+[33mcommit d32068b0684a972db96f629d9eb052a3456fd318[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Sun Sep 1 23:58:17 2019 +0800
+
+    Update README.md
+
+[33mcommit a1c2cd4254fe579c4a83401a666bbcc77d7e63a1[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Wed Aug 28 16:02:39 2019 +0800
+
+    Tool (#225)
+    
+    * feat: 一键清除历史记录
+    
+    * feat: search ui
+
+[33mcommit 8b85c281f4e679131185dfee26c77f9a95fb9d3f[m
+Merge: ae53a75 80959d3
+Author: Evan Wang <525650856@qq.com>
+Date:   Wed Aug 14 20:57:15 2019 +0800
+
+    Merge pull request #223 from TaleLin/feature/response
+    
+    更新包, 优化登录界面移动端显示
+
+[33mcommit 80959d379ddb49453d3184d2236ed79cba376ea3[m
+Author: Quanquan <zhanglinling0926@gmail.com>
+Date:   Wed Aug 14 16:36:46 2019 +0800
+
+    feat(Login): 登录界面移动适配
+
+[33mcommit 3291e7780704140aa6dc2de7882648865bdc5343[m
+Author: Quanquan <zhanglinling0926@gmail.com>
+Date:   Wed Aug 14 16:19:14 2019 +0800
+
+    chore(*): 更新依赖, 修复eslint不符合的地方
+
+[33mcommit ae53a75b2d31a56fbd17ef7f346ac0aae887119d[m
+Merge: 4396707 4e29af0
+Author: jonflow <1021283712@qq.com>
+Date:   Fri Aug 9 15:06:00 2019 +0800
+
+    Merge pull request #222 from TaleLin/eslintRule
+    
+    build(.eslintrc.js): 去掉'linebreak-style': [0, 'error', 'windows']
+
+[33mcommit 4e29af0d19709f0af0d5679268532b11ebc7f701[m
+Author: JohnStream <1021283712@qq.com>
+Date:   Fri Aug 9 15:02:52 2019 +0800
+
+    build(.eslintrc.js): 去掉'linebreak-style': [0, 'error', 'windows']
+    
+    airbnb校验规则会要求项目使用 LF 换行符, git for windows 在默认配置下会将签出的代码转换成 CRLF。此处应要求 windwos 开发者关闭 git 自动转换功能。
+
+[33mcommit 4396707388486594647a254f9a4154b450b79795[m
+Author: gongjs <382663074@qq.com>
+Date:   Tue Jul 30 14:38:17 2019 +0800
+
+    fix:修复没有分组时，新建用户选择分组的时候会显示0的bug (#221)
+
+[33mcommit ca9a6759d6acd9ad9200afe2ace74288fb1d609d[m
+Author: gongjs <382663074@qq.com>
+Date:   Thu Jul 25 17:23:18 2019 +0800
+
+    Tinymce (#214)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat:富文本 Tinymce
+    
+    * fix:去掉tinymce标识
+    
+    * update:新增富文本部分内置插件
+    
+    * fix:富文本上传图片加入token验证
+    
+    * fix:自动化导入富文本插件
+
+[33mcommit 8afc9510f398490d8825eaa97ffb838362c2dc14[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Thu Jul 18 17:36:11 2019 +0800
+
+    Update README.md
+
+[33mcommit 32762ba5d41862cc7bbd453241dc368a61a0c7a9[m
+Author: vanoneang <525650856@qq.com>
+Date:   Thu Jul 18 17:32:55 2019 +0800
+
+    feat: publish new version
+
+[33mcommit d26239e09bece595a9e10dd41705bb5c04fe7fb3[m
+Merge: 26c745c bbb8d0a
+Author: vanoneang <525650856@qq.com>
+Date:   Thu Jul 18 17:31:42 2019 +0800
+
+    feat: publish new version
+
+[33mcommit bbb8d0a83271df288b142954e5ec95dd5dc0187b[m
+Author: vanoneang <525650856@qq.com>
+Date:   Thu Jul 18 17:27:48 2019 +0800
+
+    feat: prepare for new version
+
+[33mcommit 250a4fae31178b00599ace548603fd19e0475fd4[m
+Merge: 351c1d1 b210d45
+Author: jonflow <1021283712@qq.com>
+Date:   Thu Jul 18 10:48:06 2019 +0800
+
+    Merge pull request #213 from TaleLin/feature/linCmsUi
+    
+    修复 Dropdown 组件的 颜色问题
+
+[33mcommit b210d452dfcea7bde8e4ebbfc26cd12dc5bbb436[m
+Merge: 8e8da02 351c1d1
+Author: JohnStream <1021283712@qq.com>
+Date:   Wed Jul 17 22:24:43 2019 +0800
+
+    Merge branch 'develop' of https://github.com/TaleLin/lin-cms-vue into linCmsUi
+
+[33mcommit 8e8da0261c540dec7ecb61b0f3ed097b02ef1362[m
+Author: JohnStream <1021283712@qq.com>
+Date:   Wed Jul 17 22:23:37 2019 +0800
+
+    style(linCmsUi): 修改 Dropdown 组件的颜色
+
+[33mcommit 351c1d1339f3e12497e5e9d765eafdc8aa7ffeed[m
+Author: Evan Wang <525650856@qq.com>
+Date:   Wed Jul 17 17:32:50 2019 +0800
+
+    fix: cover merge (#212)
+
+[33mcommit bac49af3851f44a9cb79ed5b6a3170352905b32a[m
+Author: Quanquan <zhanglinling0926@gmail.com>
+Date:   Wed Jul 17 17:28:22 2019 +0800
+
+    feat(avatar): 更新头像取用 path 相对路径上传 (#211)
+
+[33mcommit 558b5f7fd9691fe04f0f3fc5862b0a52794abd90[m
+Author: gongjs <gongjiansheng1991@gmail.com>
+Date:   Wed Jul 17 17:15:13 2019 +0800
+
+    Tinymce (#210)
+    
+    * Update README.md
+    
+    * Update axios.js
+    
+    * feat:富文本 Tinymce
+    
+    * fix:去掉tinymce标识
+
+[33mcommit e8571ea442bb50b6ca80dea72d9d78f11d86691f[m
+Merge: 2c8962a 86c319c
+Author: Quanquan <zhanglinling0926@gmail.com>
+Date:   Wed Jul 17 17:08:30 2019 +0800
+
+    图像上传组件更新 (#209)
+    
+    图像上传组件更新
+
+[33mcommit 86c319cfbd2d58318315d0694443ffb24177ee36[m
+Author: Quanquan <zhanglinling0926@gmail.com>
+Date:   Wed Jul 17 17:06:47 2019 +0800
+
+    docs(imgUpload): 更新文档
