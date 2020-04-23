@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-04-23 15:47:06
+ * @LastEditTime: 2020-04-23 17:20:45
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \mallVue\src\models\book.js
+ */
 /* eslint-disable class-methods-use-this */
 import { post, get, put, _delete } from '@/lin/plugins/axios'
 
@@ -7,7 +15,7 @@ class Book {
 
   // 类中的方法可以代表一个用户行为
   async addBook(info) {
-    const res = await post('v1/book', info, { handleError: true })
+    const res = await post('cms/admin/add_comm', info, { handleError: true })
     return res
   }
 
@@ -30,7 +38,7 @@ class Book {
   }
 
   async getBooks() {
-    const res = await get('v1/book', { handleError: true })
+    const res = await get('cms/admin/list_comm', { handleError: true })
     return res
   }
 }

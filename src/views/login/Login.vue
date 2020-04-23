@@ -2,7 +2,7 @@
   <div class="login">
     <div class="team-name hidden-sm-and-down"><img src="@/assets/img/login/team-name.png" alt="logo" /></div>
     <div class="form-box" v-loading="loading" element-loading-background="rgba(0, 0, 0, 0)">
-      <div class="title"><h1 title="Lin">安顺之恋后台管理</h1></div>
+      <div class="title"><h1 title="Lin">商城管理后台管理</h1></div>
       <form class="login-form" autocomplete="off" @submit.prevent="throttleLogin()">
         <div class="form-item nickname">
           <span class="icon account-icon"></span>
@@ -166,10 +166,10 @@ export default {
         height: 70px;
         color: #c4c9d2;
         font-size: 16px;
-        text-align: left;
+        text-align: center;
         box-sizing: border-box;
         padding: 0 10px;
-        padding-left: 74px;
+        // padding-left: 74px;
         background: url('../../assets/img/login/login-btn.png') no-repeat;
         background-size: 90% auto;
         background-position: center bottom;

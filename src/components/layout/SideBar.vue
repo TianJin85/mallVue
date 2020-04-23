@@ -1,6 +1,6 @@
 <template>
   <div class="app-sidebar">
-    <div class="logo" v-if="!elMenuCollapse"><img src="../../assets/img/logo.png" alt="" /></div>
+    <div class="logo" v-if="!elMenuCollapse"><img src="../../assets/img/logo1.png" alt="" /></div>
     <div class="mobile-logo" v-else><img src="../../assets/img/mobile-logo.png" alt="" /></div>
     <div style="margin-bottom:50px">
       <div v-if="showSidebarSearch" style="margin-top: 15px">

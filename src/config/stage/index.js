@@ -1,12 +1,13 @@
 import adminConfig from './admin'
 import bookConfig from './book' // 引入图书管理路由文件
+import storeConfig from './store' // 引入图书管理路由文件
 import pluginsConfig from './plugins'
 import Utils from '@/lin/utils/util'
 
 // eslint-disable-next-line import/no-mutable-exports
 let homeRouter = [
   {
-    title: '安顺之恋',
+    title: '首页',
     type: 'view',
     name: Symbol('about'),
     route: '/about',
@@ -36,6 +37,7 @@ let homeRouter = [
     icon: 'iconfont icon-rizhiguanli',
   },
   bookConfig,
+  storeConfig,
   adminConfig,
 ]
 
