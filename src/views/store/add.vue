@@ -8,7 +8,7 @@
  -->
 <template>
   <div class="container">
-    <div class="title">新建图书</div>
+    <div class="title">新建商品</div>
     <div class="wrap">
       <el-row>
         <el-col :lg="16" :md="20" :sm="24" :xs="24">
@@ -76,7 +76,7 @@ export default {
         pepertory: '',
         type: '',
         titleImg: [],
-        details: '',
+        detailsImg: '',
         product: []
       },
       rules: {
@@ -100,9 +100,10 @@ export default {
       })
       try {
         const res = await book.addBook(this.form)
-        if (res.error_code === 0) {
+        if (res.error_code === 200) {
           this.$message.success(`${res.msg}`)
           this.resetForm(formName)
+          this.$router.push('/store/list')
         }
       } catch (error) {
         this.$message.error(error.data.msg)
@@ -114,10 +115,7 @@ export default {
     },
     detailChange(e) {
       console.log(e)
-      this.form.details = e
-    },
-    change() {
-
+      this.form.detailsImg = e
     },
     addContent() {
       this.form.product.push({

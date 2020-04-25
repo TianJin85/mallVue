@@ -23,12 +23,12 @@ class Book {
   // 1. await 一定要搭配 async 来使用
   // 2. await 后面跟的是一个 Promise 对象
   async getBook(id) {
-    const res = await get(`v1/book/${id}`)
+    const res = await get(`cms/admin/query_comm_details?id=${id}`)
     return res
   }
 
-  async editBook(id, info) {
-    const res = await put(`v1/book/${id}`, info)
+  async editBook(info) {
+    const res = await put(`cms/admin/put_comm`, info)
     return res
   }
 
@@ -37,8 +37,8 @@ class Book {
     return res
   }
 
-  async getBooks() {
-    const res = await get('cms/admin/list_comm', { handleError: true })
+  async getBooks(info) {
+    const res = await get('cms/admin/query_comm', info,{ handleError: true })
     return res
   }
 }

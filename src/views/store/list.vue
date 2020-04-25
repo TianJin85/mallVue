@@ -13,6 +13,15 @@
         @row-click="rowClick"
         v-loading="loading"
       ></lin-table>
+      <div style="padding:20px 0;">
+        <el-pagination
+        background
+        layout="prev, pager, next"
+        :current-page="page"
+        @current-change="pagechange"
+        :total="total">
+       </el-pagination>
+      </div>
     </div>
 
     <!-- 编辑页面 -->
@@ -33,15 +42,20 @@ export default {
   data() {
     return {
       tableColumn: [
-        { prop: 'title', label: '用户名' },
-        { prop: 'author', label: '性别' },
-        { prop: 'author', label: '年龄' },
-        { prop: 'author', label: '余额' },
+      { prop: 'id', label: '商品Id' },
+        { prop: 'name', label: '商品名' },
+        { prop: 'pepertory', label: '库存量' },
+        { prop: 'salesVolum', label: '销售量' },
       ],
       tableData: [],
       operate: [],
       showEdit: false,
       editBookID: 1,
+      page:1,
+      total:50,
+      option:{
+        pageNumber:1
+      }
     }
   },
   async created() {
@@ -53,7 +67,7 @@ export default {
         name: '删除',
         func: 'handleDelete',
         type: 'danger',
-        auth: '删除用户',
+        auth: '删除商品',
       },
     ]
     this.loading = false
@@ -61,13 +75,18 @@ export default {
   methods: {
     async getBooks() {
       try {
-        const books = await book.getBooks()
-        this.tableData = books
+        const books = await book.getBooks(this.option)
+        this.tableData = books.data
+        this.total=books.total
       } catch (error) {
         if (error.error_code === 10020) {
           this.tableData = []
         }
       }
+    },
+    pagechange(e){
+        this.option.pageNumber=e
+        this.getBooks()
     },
     handleEdit(val) {
       console.log('val', val)
@@ -75,7 +94,7 @@ export default {
       this.editBookID = val.row.id
     },
     handleDelete(val) {
-      this.$confirm('此操作将永久删除该用戶, 是否继续?', '提示', {
+      this.$confirm('此操作将永久删除该商品, 是否继续?', '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
         type: 'warning',
